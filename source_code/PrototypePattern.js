@@ -17,5 +17,6 @@ const NonPrototypePattern = {
 
 
 const Audi = Object.create(PrototypePattern, { owner: { value: "Volkswagen Group" } });
+console.log("This is an example of Prototype Pattern")
 console.log(Audi.__proto__ === PrototypePattern)
 console.log(Audi.__proto__ === NonPrototypePattern)

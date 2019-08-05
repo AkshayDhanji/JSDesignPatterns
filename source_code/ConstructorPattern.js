@@ -11,5 +11,5 @@ class ConstructorPattern {
 }
 
 const AmazonDetails = new ConstructorPattern('Jeff Bezos','Chief Executive Officer','Amazon.com, Inc');
-
+console.log('This is an example of Constructor Pattern');
 console.log(AmazonDetails.getDetails());
