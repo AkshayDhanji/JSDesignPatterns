@@ -20,5 +20,3 @@ var InstancePattern1 = SingletonPattern.getInstance();
 var InstancePattern2 = SingletonPattern.getInstance();
 console.log("This is an example of Singleton Pattern");
 console.log("Both the patterns are " + InstancePattern1 === InstancePattern2);
-console.log(InstancePattern1);
-console.log(InstancePattern2);
